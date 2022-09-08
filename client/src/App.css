@@ -1,0 +1,12 @@
+.App {
+  padding: 10rem;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.Board {
+  gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+}

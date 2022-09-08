@@ -1,0 +1,33 @@
+.UrlInput {
+  width: 15rem;
+  height: 1.5rem;
+  margin: 1rem;
+}
+
+.Sidebar {
+  width: 30rem;
+  height: 390px;
+  max-height: max-content;
+  display: flex;
+  flex-direction: column;
+  background-color: #eeeeee;
+}
+
+.Playlist {
+  display: flex;
+  overflow: auto;
+  flex-direction: column;
+  margin: 10px;
+  border: #aaaaaa 1px solid;
+  padding-inline: 0;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.Playlist li {
+  display: flex;
+  padding: 1rem;
+  border: #aaaaaa 1px solid;
+  justify-content: space-between;
+  align-content: space-between;
+}
