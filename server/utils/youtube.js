@@ -1,7 +1,7 @@
 import axios from "axios";
 import { v4 as uuidv4 } from "uuid";
 
-const API_KEY = "AIzaSyBjFaga56Xpw5cGA3v1JzKAdS4GjnEtvMk";
+const API_KEY;
 
 export default async function buildYoutubeObject(url) {
   if (url) {
